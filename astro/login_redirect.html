@@ -1,17 +1,2 @@
-<script type="text/javascript">
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)", "i"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-
-var url_redirect = getParameterByName('url_redirect');
-if (url_redirect != null) {
-    window.location = url_redirect;
-}
-
+<script src=" https://login.astro.com.my/ssowebnx/clientping.aspx" >
 </script>
